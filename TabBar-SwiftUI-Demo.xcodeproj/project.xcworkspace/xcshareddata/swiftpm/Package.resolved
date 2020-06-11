@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TabBar-SwiftUI",
+        "repositoryURL": "https://github.com/ling-zhan/TabBar-SwiftUI",
+        "state": {
+          "branch": "master",
+          "revision": "d3ac3176ef79e54b58665573433cdc7626413bfe",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
