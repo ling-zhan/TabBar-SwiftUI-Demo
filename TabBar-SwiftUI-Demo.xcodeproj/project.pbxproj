@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D229BCA249B021A007A5C59 /* TabBar-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3D229BC9249B021A007A5C59 /* TabBar-SwiftUI */; };
 		3DE397C52491D8A900744FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE397C42491D8A900744FE5 /* AppDelegate.swift */; };
 		3DE397C72491D8A900744FE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE397C62491D8A900744FE5 /* SceneDelegate.swift */; };
 		3DE397C92491D8A900744FE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE397C82491D8A900744FE5 /* ContentView.swift */; };
 		3DE397CB2491D8AB00744FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE397CA2491D8AB00744FE5 /* Assets.xcassets */; };
 		3DE397CE2491D8AB00744FE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE397CD2491D8AB00744FE5 /* Preview Assets.xcassets */; };
 		3DE397D12491D8AB00744FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE397CF2491D8AB00744FE5 /* LaunchScreen.storyboard */; };
-		3DE397DA2491DAE600744FE5 /* TabBar-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3DE397D92491DAE600744FE5 /* TabBar-SwiftUI */; };
 		3DE397DC2491DBA700744FE5 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE397DB2491DBA700744FE5 /* View1.swift */; };
 		3DE397DE2491DBAF00744FE5 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE397DD2491DBAF00744FE5 /* View2.swift */; };
 /* End PBXBuildFile section */
@@ -37,19 +37,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE397DA2491DAE600744FE5 /* TabBar-SwiftUI in Frameworks */,
+				3D229BCA249B021A007A5C59 /* TabBar-SwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D229BC8249B021A007A5C59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3DE397B82491D8A900744FE5 = {
 			isa = PBXGroup;
 			children = (
 				3DE397DF2491DF7A00744FE5 /* README.md */,
 				3DE397C32491D8A900744FE5 /* TabBar-SwiftUI-Demo */,
 				3DE397C22491D8A900744FE5 /* Products */,
+				3D229BC8249B021A007A5C59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +110,7 @@
 			);
 			name = "TabBar-SwiftUI-Demo";
 			packageProductDependencies = (
-				3DE397D92491DAE600744FE5 /* TabBar-SwiftUI */,
+				3D229BC9249B021A007A5C59 /* TabBar-SwiftUI */,
 			);
 			productName = "TabBar-SwiftUI-Demo";
 			productReference = 3DE397C12491D8A900744FE5 /* TabBar-SwiftUI-Demo.app */;
@@ -373,7 +381,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3DE397D92491DAE600744FE5 /* TabBar-SwiftUI */ = {
+		3D229BC9249B021A007A5C59 /* TabBar-SwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3DE397D82491DAE600744FE5 /* XCRemoteSwiftPackageReference "TabBar-SwiftUI" */;
 			productName = "TabBar-SwiftUI";
